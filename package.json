@@ -1,0 +1,23 @@
+{
+  "name": "discord-server-emoji-downloader",
+  "version": "1.0.0",
+  "description": "Downloads all emojis inside a discord server, without having any permissions",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Automized",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "console-title": "^1.1.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "readline-sync": "^1.4.10",
+    "util": "^0.12.4"
+  }
+}
