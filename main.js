@@ -89,11 +89,11 @@ console.log(" ");
         const Endix = emoji.animated ? "gif" : "png" 
         const BuiltUrl = `https://cdn.discordapp.com/emojis/${emoji.id}.${Endix}`
         const DownloadedFile = await DownloadFile(BuiltUrl, path.join("Output", `${emoji.name}.${Endix}`))
-        if(DownloadFile.location){
+        if(DownloadedFile.location){
             counters.downloaded += 1
             console.log(`[+] Downloaded emoji ${emoji.name} <> ##${DownloadedFile.location}##`)
         }
-        
+
         UpdateTitle()
     }
 
